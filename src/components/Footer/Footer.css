@@ -1,0 +1,28 @@
+.footer-text {
+  color: #8c8b8b;
+  font-size: 1rem;
+}
+.footer-heading {
+  color: #1f3e72;
+  font-weight: 700;
+  font-size: 2rem;
+  font-family: Poppins, sans-serif;
+}
+.footer-links {
+  margin-top: 2rem;
+}
+.footer-ul {
+  display: flex;
+  list-style: none;
+  padding: 0%;
+}
+
+.footer-li {
+  margin-right: 1.5rem;
+}
+.footer-li > a {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}

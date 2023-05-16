@@ -1,0 +1,63 @@
+.main {
+  padding: 1.5rem;
+}
+.r-container {
+  position: relative;
+  overflow: hidden;
+}
+.best {
+  margin-bottom: 2rem;
+}
+
+.best-choices {
+  color: orange;
+  font-size: 1.6rem;
+  font-weight: 600;
+  font-family: Poppins, sans-serif;
+  scroll-behavior: smooth;
+}
+
+.popular {
+  color: #1f3e72;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: normal;
+  font-family: Poppins, sans-serif;
+  scroll-behavior: smooth;
+}
+.swiper-horizontal {
+  overflow: visible;
+}
+.swiper {
+  margin: 40px 0px;
+}
+.swiper-btns {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  z-index: 2 !important;
+  margin: 10px;
+
+  /* position: absolute;
+  top: -3rem; */
+  right: 0;
+}
+.swiper-btn1 {
+  font-size: 1.2rem;
+  padding: 0.2rem 0.8rem;
+  color: #00f;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+  box-shadow: 0 0 5px 1px #00000040;
+}
+.swiper-btn2 {
+  font-size: 1.2rem;
+  padding: 0.2rem 0.8rem;
+  color: #00f;
+  border: none;
+  border-radius: 5px;
+  background-color: #eef;
+  cursor: pointer;
+}

@@ -1,0 +1,40 @@
+.contactus {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-top: 4rem;
+}
+.contact-heading {
+  color: orange;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+.contact-text {
+  color: #1f3e72;
+  font-weight: 700;
+  font-size: 2rem;
+}
+.contact-text1 {
+  color: #8c8b8b;
+  font-size: 16.4px;
+}
+
+.contact-image {
+  max-width: 30rem;
+  max-height: 35rem;
+  overflow: hidden;
+  border-radius: 15rem 15rem 0 0;
+  border: 8px solid rgba(71, 56, 56, 0.12);
+  margin: 50px;
+}
+.contact-image > img {
+  width: 100%;
+  height: 100%;
+}
+.contact-cards {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  justify-content: center;
+}
